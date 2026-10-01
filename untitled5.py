@@ -188,8 +188,6 @@ agent1.simple_reflex()
 agent2 = VacuumCleanerAgent(rooms.copy())
 agent2.goal_based()
 
-# Vacuum Cleaner Agent
-# Simple Reflex and Goal-Based Architectures
 
 class VacuumEnvironment:
     def __init__(self):
@@ -205,9 +203,6 @@ class VacuumEnvironment:
         print(f"Vacuum position: {self.position}")
 
 
-# -------------------------------------------------
-# 1. SIMPLE REFLEX AGENT
-# -------------------------------------------------
 
 class SimpleReflexAgent:
     def act(self, location, status):
@@ -245,9 +240,6 @@ def run_simple_reflex():
         print()
 
 
-# -------------------------------------------------
-# 2. GOAL-BASED AGENT
-# -------------------------------------------------
 
 class GoalBasedAgent:
     def __init__(self):
@@ -295,6 +287,5 @@ def run_goal_based():
         print()
 
 
-# Run both agents
 run_simple_reflex()
 run_goal_based()
